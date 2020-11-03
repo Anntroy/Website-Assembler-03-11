@@ -122,7 +122,12 @@ smaller tablets @ 600 or @ 640 wide.*/
 
 
 /*              HEADER CSS AREA                 */
-
+header a{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.0em;
+    font-weight: 500;
+    color: #cf2c30;
+}
 #logo img{
     width: 58px;
     margin-left: 4em;
