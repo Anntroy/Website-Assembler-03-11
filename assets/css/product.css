@@ -52,16 +52,24 @@
 #product-data * {
 }
 #product-data h2, #product-price {
-    font-size: 2em;
-    margin-bottom: 0.5em;
+    font-size: 1.8em;
+    letter-spacing: 0.5;
 }
 #product-price {
-    margin: 0.5em 0;
+    margin: 0.8em 0;
+    font-weight: 600;
 }
 #serial-num {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 /*color-list*/
+#color-product {
+    font-size: 0.9em;
+}
+#color-product span{
+    font-weight: bold;
+}
+
 #color-list ul{
     display: flex;
 }
