@@ -7,12 +7,22 @@
 }
 
 /*image-selection*/
+#images-column ul {
+    display: flex;
+    flex-direction: column;
+}
+#images-column li {
+    margin: 0 auto;
+}
+#images-column li img {
+    width: 100%;
+}
 #product-image {
     display: flex;
 }
- 
 #images-column {
-    width: 5em;
+    width: 6em;
+    height: 400px;
     border: 1px black solid;
 }
 #arrow-left img, #arrow-right img {
