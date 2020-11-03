@@ -36,6 +36,8 @@
 #product-selection {
     display: flex;
 }
+
+/*product-containers*/
 #product-left {
     display: flex;
     flex: 3;
@@ -43,4 +45,17 @@
 }
 #product-right {
     flex: 3;
+}
+ 
+/*product-right*/
+#product-data * {
+}
+#product-data h2, #product-price {
+    font-size: 2em;
+}
+#product-price {
+    margin: 0.5em 0;
+}
+#serial-num {
+    font-size: 1em;
 }
