@@ -1,5 +1,10 @@
 :root {
 }
+/*breadcrumbs*/
+#breadcrumbs {
+    width: 100%;
+    margin-bottom: 2em;
+}
 
 /*image-selection*/
 #product-image {
@@ -20,6 +25,7 @@
 }
 #product-image img {
     margin: auto 0;
+    width: 100%;
 }
 /*arrows*/
 #arrow-left {
@@ -42,10 +48,10 @@
 #product-left {
     display: flex;
     padding-bottom: 10%;
-    flex: 2;
+    flex: 5;
 }
 #product-right {
-    flex: 1;
+    flex: 3;
 }
  
 /*product-right*/
@@ -100,7 +106,7 @@
     font-size: 10px;
     text-decoration: underline;
 }
-#size-list { margin: 1em 0; }
+#size-list { margin: 1em 0; padding-right: 40%;}
 #size-list ul{
     display: flex;
 }
