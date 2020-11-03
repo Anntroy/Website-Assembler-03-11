@@ -68,8 +68,14 @@ nav {
     /* margin-bottom: 12px; */
 }
 
-#second-line, #third-line {
+#second-line {
     height: 20em;
+    display: flex;
+    margin: 12px 0;
+}
+
+#third-line {
+    height: 13em;
     display: flex;
     margin: 12px 0;
 }
@@ -84,7 +90,7 @@ nav {
 }
 
 #second-line_item1 {
-    background-image: url("assets/img/logo.gif");
+    background-image: url("assets/img/");
     width: 312px;
     background-position: bottom;
     display: flex;
@@ -159,18 +165,18 @@ footer {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 0.5em;
+    font-size: 0.7em;
 }
 
 footer section{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 1em 1em;
 }
 
 #items-footer {
     display: flex;
-    justify-content: space-around;
-    flex: 75%;
+    justify-content: space-evenly;
+    flex: 70%;
 }
 
 footer h3 {
@@ -179,7 +185,7 @@ footer h3 {
 
 .item-footer a {
     color: white;
-    margin: 1em 0;
+    /* margin: 1em 0; */
 }
 
 /* Footer right */
@@ -187,7 +193,7 @@ footer h3 {
 #footer-rigth{
     display: flex;
     flex-direction: column;
-    flex: 25%
+    flex: 30%
 }
 
 #items-info {
@@ -195,6 +201,19 @@ footer h3 {
     justify-content: space-around;
 }
 
-#primero, #segundo{
+#items-info .item-primero {
     padding: 1.5em 0;
+}
+
+#segundo {
+    padding: 1.5em 0;
+}
+
+#tercero {
+    padding: 1.5em 0;
+    text-align:center;
+}
+
+.icons {
+    padding: 0.3em;
 }

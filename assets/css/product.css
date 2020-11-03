@@ -10,13 +10,27 @@
 #arrow-left img, #arrow-right img {
     width: 1.5em;
 }
+/*product-image*/
+#product-image {
+    flex: auto;
+}
+#product-image img {
+    margin: auto 0;
+}
+
+/*arrows*/
 #arrow-left {
-    width: 5em;
     border: 1px black solid;
+    margin: auto 0;
+    flex: 5%;
+}
+#arrow-left img {
+    transform: rotate(180deg);
 }
 #arrow-right {
-    width: 5em;
     border: 1px black solid;
+    margin: auto 0;
+    flex: 5%;
 }
 /*image-display*/
 #product-selection {
