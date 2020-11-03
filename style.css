@@ -65,60 +65,85 @@ nav {
     justify-content: center;
     color: white;
     opacity: 0.9;
+    /* margin-bottom: 12px; */
 }
 
 #second-line {
-    flex-flow: row;
-    /* justify-content: space-evenly; */
+    height: 20em;
+    display: flex;
+    margin: 12px 0;
+}
+
+.items-second h2{
+    padding-top: 2em;
+}
+
+.items-second button{
+    margin-top: 1em;
 }
 
 #second-line_item1 {
     background-image: url("assets/img/second-line1.jpg");
-    height: 20em;
-    background-position: bottom;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    /* transform: scale(0.7); */
-}
-
-#second-line_item1 {
-    background-image: url("assets/img/second-line1.jpg");
-    height: 20em;
+    width: 312px;
     background-position: bottom;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: white;
+    margin-right: 12px;
     /* transform: scale(0.7); */
 }
 
-#second-line_item1 {
+#second-line_item2 {
     background-image: url("assets/img/second-line1.jpg");
-    height: 20em;
-    margin: 0 auto;
+    width: 312px;
     background-position: bottom;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: white;
-    /* transform: scale(0.7); */
+    margin-right: 12px;
 }
 
+#second-line_item3 {
+    background-image: url("assets/img/second-line1.jpg");
+    width: 312px;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.link-categories {
+    height: 16px;
+    width: 104px;
+    background-color: white;
+    border: none;
+    font-size: 0.15em;
+    font-weight: 600;
+}
 
 
 /*                          FOOTER CSS AREA                       */
 
 footer {
-    background-color: lightblue;
+    background-color: var(--footer-color);
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
+    font-size: 0.5em;
 }
 
 footer section{
-    border: 1px solid red;
+    border: 1px solid black;
+    padding: 1em 1em;
 }
 
+footer a {
+    color: white;
+}
 #primero, #segundo{
     padding: 1.5em 0;
 }
@@ -130,6 +155,13 @@ footer section{
 
 #items-footer {
     display: flex;
+    align-items: center;
+    justify-content: space-b;
+
+}
+
+footer article {
+    margin: 1.0em 0.9em;
 }
 
 #items-info {

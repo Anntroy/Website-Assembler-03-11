@@ -1,0 +1,10 @@
+#product-selection {
+    display: flex;
+}
+
+#product-left {
+    flex: 3;
+}
+#product-right {
+    flex: 3;
+}
