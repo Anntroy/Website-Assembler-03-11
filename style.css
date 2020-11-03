@@ -68,22 +68,23 @@ nav {
     /* margin-bottom: 12px; */
 }
 
-#second-line {
+#second-line, #third-line {
     height: 20em;
     display: flex;
     margin: 12px 0;
 }
 
-.items-second h2{
+.items-second h2, .items-third h2 {
+    font-size: 1.2em;
     padding-top: 2em;
 }
 
-.items-second button{
-    margin-top: 5em;
+.items-second button, .items-third button {
+    margin-top: 3em;
 }
 
 #second-line_item1 {
-    background-image: url("assets/img/second-line1.jpg");
+    background-image: url("assets/img/logo.gif");
     width: 312px;
     background-position: bottom;
     display: flex;
@@ -124,14 +125,40 @@ nav {
     font-weight: 600;
 }
 
+#third-line {
+    height: 20em;
+    display: flex;
+    margin: 12px 0;
+}
+
+#third-line_item1 {
+    background-image: url("assets/img/second-line1.jpg");
+    width: 474px;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-right: 12px;
+}
+
+#third-line_item2 {
+    background-image: url("assets/img/second-line1.jpg");
+    width: 474px;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
 
 /*                          FOOTER CSS AREA                       */
-
+/* Footer left */
 footer {
     background-color: var(--footer-color);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     color: white;
     font-size: 0.5em;
 }
@@ -141,9 +168,23 @@ footer section{
     padding: 1em 1em;
 }
 
+#items-footer {
+    display: flex;
+    justify-content: space-around;
+    flex: 75%;
+}
+
+
 footer a {
     color: white;
+    padding: 1em;
 }
+
+footer h3 {
+    padding: 1em 0;
+}
+
+/* Footer right */
 #primero, #segundo{
     padding: 1.5em 0;
 }
@@ -151,18 +192,12 @@ footer a {
 #footer-rigth{
     display: flex;
     flex-direction: column;
+    flex: 25%
 }
 
-#items-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-b;
 
-}
 
-footer article {
-    margin: 1.0em 0.9em;
-}
+
 
 #items-info {
     display: flex;

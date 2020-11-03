@@ -1,8 +1,29 @@
+/*image-selection*/
+#product-image {
+    display: flex;
+}
+ 
+#images-column {
+    width: 5em;
+    border: 1px black solid;
+}
+#arrow-left img, #arrow-right img {
+    width: 1.5em;
+}
+#arrow-left {
+    width: 5em;
+    border: 1px black solid;
+}
+#arrow-right {
+    width: 5em;
+    border: 1px black solid;
+}
+/*image-display*/
 #product-selection {
     display: flex;
 }
-
 #product-left {
+    display: flex;
     flex: 3;
 }
 #product-right {
