@@ -201,3 +201,23 @@
     transform: rotate(90deg);
     margin-right: 1em;
 }
+
+/*more-products*/
+#more-products { 
+    margin-top: 3em;
+    display: flex; 
+}
+.more-products {
+    width: 240px;
+}
+
+.more-products img {
+    width: 100%;
+    padding-top: 7em;
+    padding: 7em 2em 1em 2em ;
+    max-width: 100%;
+    max-width: 100%;
+}
+.more-products-info {
+    text-align: center;
+}
