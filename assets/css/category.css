@@ -19,7 +19,7 @@
 	float:left;
 	width:100%;
 	border:1px solid red;
-	padding:11px;
+	padding:0 15px 10px 10px;
 }
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
@@ -149,6 +149,7 @@ header nav ul li{
     }
     .sub-title{
         text-align: center;
+        font-size: 0.8em;
     }
 
     .img-g{
@@ -156,9 +157,20 @@ header nav ul li{
         height: 250px;
     }
 
-    .text-price{
+    .text-title{
         text-align: center;
         font-size: 0.7em;
+    }
+    .text-price{
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .text-colors{
+        font-size: 0.7em;
+        color: gray;
+    }
+    .right{
+        float: right;
     }
 
 /*              FOOTER CSS AREA                 */
