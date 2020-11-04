@@ -91,6 +91,10 @@
 #color-product {
     font-size: 0.9em;
 }
+#color-list img {
+   opacity: 0.95;
+   transition: 0.5s;
+}
 #color-product span{
     font-weight: bold;
 }
@@ -100,6 +104,13 @@
 }
 #color-list li {
     margin: 0 auto;
+}
+#color-list li img:hover {
+    box-shadow:0px 0px 0px 1px black inset;
+    border-radius:10%;
+}
+#color-list li img:active {
+    transform: scale(0.9);
 }
 #color-list li img {
     width: 100%;
