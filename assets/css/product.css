@@ -285,7 +285,9 @@
 }
 .more-products img:hover {
     transform: scale(1.2);
-    margin-bottom: 2em;
+}
+.more-products:hover > .more-products-info {
+    transform: translateY(2em);
 }
 .more-products-info {
     text-align: center;
