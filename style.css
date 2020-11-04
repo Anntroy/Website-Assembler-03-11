@@ -30,7 +30,7 @@ body {
 header {
     margin-bottom: 1%;
 }
-#navbar {
+.navbar {
     display: flex;
 }
 nav {
@@ -197,7 +197,7 @@ nav {
 
 .link-newsletter {
     height: 16px;
-    width: 200px;
+    width: 170px;
     background-color: var(--footer-color);
     border: none;
     font-size: 0.6em;
@@ -234,7 +234,7 @@ footer h3 {
     padding: 0.7em 0;
 }
 
-#jajaxd {
+.margin-items-footer {
     margin: 10px 0;
     color: white;
 }
@@ -275,4 +275,20 @@ footer h3 {
 
 .icons {
     padding: 0.25em 0.5em 0.25em 0;
+}
+
+/***************************************************************************************         FILE FAQ         *************************************************************************************/
+/*                          MAIN CSS AREA                       */
+
+#faq-first-line {
+    /* background-image: url("assets/img/home page/faq-first-line.jpg"); */
+    height: 20em;
+    background-size: cover;
+    background-position: top left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--footer-color);
+    opacity: 0.9;
+    /* margin-bottom: 12px; */
 }
