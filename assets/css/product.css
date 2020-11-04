@@ -152,14 +152,21 @@
 }
 #drop-down { 
     background-color:#B6B6B6;
-    margin: 1em;
-    font-size: 0.9em;
-    margin-bottom: 3em;
+    margin: 0.5em;
+    font-size: 0.7em;
+    padding: 0.5em;
 }
-#drop-info-2 {
-    float: left;
+.drop-info{
+    flex: 1;
 }
-
+.drop-info p {
+    padding: 1px;
+    position: relative;
+    top: 50%;
+}
+.drop-info-low p {
+    margin-top:3em;
+}
 #drop-down img {
     float: left;
     padding: 0.5em;
@@ -171,7 +178,7 @@
 
 #media-icons {
     margin: 1em auto;
-    padding: 0 14em;
+    padding: 0 13em;
 }
 
 
