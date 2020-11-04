@@ -18,7 +18,7 @@
 [class*="col-"]{
 	float:left;
 	width:100%;
-	/* border:1px solid red; */
+	border:1px solid red;
 	padding:0 15px 10px 10px;
 }
 
@@ -171,14 +171,15 @@ header nav ul li{
     }
     .right{
         /* margin-left: 85%; */
-        padding-left: 37%;
+        padding-left: 36%;
     }
     .bold{
         font-size: 0.8em;
         font-weight: 700;
+        color: black;
     }
     .size{
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     .filter{
         color: gray;
