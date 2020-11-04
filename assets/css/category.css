@@ -18,7 +18,7 @@
 [class*="col-"]{
 	float:left;
 	width:100%;
-	border:1px solid red;
+	/* border:1px solid red; */
 	padding: 10px 15px 10px 10px;
 }
 
@@ -142,11 +142,14 @@ header nav ul li{
     width: 58px;
     margin-left: 4em;
 }
-.migas{
-    font-size: 0.7em;
-}
 
 /*              MAIN CSS AREA                   */
+
+    .migas{
+        font-size: 0.7em;
+        float: left;
+    }
+
     .title{
         font-size: 1.5em;
         font-weight: 700;
@@ -170,14 +173,12 @@ header nav ul li{
         font-size: 1em;
         font-weight: 600;   
     }
-    .text-colors{
+    .text-colors, .size{
         font-size: 0.7em;
-        color: gray;
     }
     .right{
         /* margin-left: 85%; */
         padding-left: 34%;
-        color: black;
     }
     .left{
         padding-left: 2%;
@@ -185,14 +186,12 @@ header nav ul li{
     .bold{
         font-size: 0.8em;
         font-weight: 700;
-        color: black;
     }
-    .size{
-        font-size: 0.7em;
-    }
-    .filter{
+    .filter, .text-colors{
         color: gray;
     }
+
+    /*  Newsletter   */
     #newsletter p{
         text-align: center;
     }
