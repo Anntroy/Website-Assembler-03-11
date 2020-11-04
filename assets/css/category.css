@@ -18,8 +18,8 @@
 [class*="col-"]{
 	float:left;
 	width:100%;
-	border:1px solid red;
-	padding:11px;
+	/* border:1px solid red; */
+	padding: 10px 15px 10px 10px;
 }
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
@@ -120,7 +120,9 @@ smaller tablets @ 600 or @ 640 wide.*/
 body{
     font-family: 'Work Sans', sans-serif;
 }
-
+body a{
+    color: #000;
+}
 
 
 /*              HEADER CSS AREA                 */
@@ -142,6 +144,12 @@ header nav ul li{
 }
 
 /*              MAIN CSS AREA                   */
+
+    .migas{
+        font-size: 0.7em;
+        float: left;
+    }
+
     .title{
         font-size: 1.5em;
         font-weight: 700;
@@ -149,6 +157,7 @@ header nav ul li{
     }
     .sub-title{
         text-align: center;
+        font-size: 0.8em;
     }
 
     .img-g{
@@ -156,9 +165,42 @@ header nav ul li{
         height: 250px;
     }
 
-    .text-price{
+    .text-title{
         text-align: center;
         font-size: 0.7em;
+    }
+    .text-price{
+        font-size: 1em;
+        font-weight: 600;   
+    }
+    .text-colors, .size{
+        font-size: 0.7em;
+    }
+    .right{
+        /* margin-left: 85%; */
+        padding-left: 34%;
+    }
+    .left{
+        padding-left: 2%;
+    }
+    .bold{
+        font-size: 0.8em;
+        font-weight: 700;
+    }
+    .filter, .text-colors{
+        color: gray;
+    }
+
+    /*  Newsletter   */
+    #newsletter p{
+        text-align: center;
+    }
+    .link-newsletter{
+        text-align: center;
+        color: #fff;
+        padding: 5px 80px;
+        background-color: #cf2c30;
+        border-radius: 3px;
     }
 
 /*              FOOTER CSS AREA                 */
