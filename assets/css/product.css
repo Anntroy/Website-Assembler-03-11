@@ -164,19 +164,32 @@
     margin: 0 auto;
     font-size: 0.9em;
 }
+#size-list li:hover {
+    transform: scale(1.2);
+}
+#size-list li:active {
+    transform: scale(1);
+}
 /*product-button*/
 #product-button {
     margin: 3em 0;
 }
-#product-button p {
+#product-button-subtext p {
     margin-top: 2.5em;
     font-size: 0.9em;
+    margin-bottom: 2em;
 }
 #product-button a {
     background-color: var(--footer-color);
     color: white;
     font-weight: bold;
     padding: 1em 14em;
+}
+#product-button a:hover {
+    opacity: 0.95;
+}
+#product-button:active {
+    transform: scale(0.99);
 }
 
 /*drop-down*/
