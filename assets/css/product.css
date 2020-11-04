@@ -1,4 +1,5 @@
 :root {
+    --green-new: #29CF00;
 }
 /*breadcrumbs*/
 #breadcrumbs {
@@ -32,10 +33,17 @@
     display: flex;
     margin-right: 1em;
 }
+#main-new {
+    position: relative;
+}
 .new-product {
-    background-color: green;
-    color: white;
+    padding: 0.2em 0.2em;
+    color: var(--green-new);
+    position: absolute;
+    right: 2em;
+    top: 1em;
     font-weight: 900;
+    font-size: 1.4em;
 }
 #product-image .new-product {
     justify-content: right;
