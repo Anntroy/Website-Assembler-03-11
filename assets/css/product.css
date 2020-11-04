@@ -21,6 +21,14 @@
     display: flex;
     margin-right: 1em;
 }
+.new-product {
+    background-color: green;
+    color: white;
+    font-weight: 900;
+}
+#product-image .new-product {
+    justify-content: right;
+}
 #images-column {
     width:10em;
     height: 400px;
