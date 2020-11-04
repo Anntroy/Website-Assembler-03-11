@@ -156,6 +156,10 @@ header nav ul li{
         height: 250px;
     }
 
+    .text-price{
+        text-align: center;
+    }
+
 /*              FOOTER CSS AREA                 */
 
 footer{
