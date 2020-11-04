@@ -4,6 +4,10 @@
 #breadcrumbs {
     width: 100%; margin-bottom: 2em;
 }
+#breadcrumbs:hover {
+    text-decoration: underline;    
+    cursor: pointer;
+}
 
 /*image-selection*/
 #images-column ul {
