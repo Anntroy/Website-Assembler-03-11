@@ -30,7 +30,7 @@ body {
 header {
     margin-bottom: 1%;
 }
-#navbar {
+.navbar {
     display: flex;
 }
 nav {
@@ -168,6 +168,16 @@ nav {
     color: white;
     opacity: 0.9;
 }
+#third-line_item2 {
+    background-image: url("assets/img/home page/third-line2.jpg");
+    width: 474px;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    opacity: 0.9;
+}
 
 /* Newsletter */
 #newsletter {
@@ -187,7 +197,7 @@ nav {
 
 .link-newsletter {
     height: 16px;
-    width: 200px;
+    width: 170px;
     background-color: var(--footer-color);
     border: none;
     font-size: 0.6em;
@@ -213,21 +223,19 @@ footer {
     display: flex;
     justify-content: space-evenly;
     flex: 70%;
+    margin-bottom: 2.5em;
 }
 
 .item-footer {
     margin-top: 2.5em;
 }
 
-.item-footer a {
-    padding: 0.5em 0;
-}
-
 footer h3 {
     padding: 0.7em 0;
 }
 
-.item-footer a {
+.margin-items-footer {
+    margin: 10px 0;
     color: white;
 }
 
@@ -242,6 +250,7 @@ footer h3 {
 #items-info {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2.5em;
 }
 
 #primero .item-primero {
@@ -260,11 +269,26 @@ footer h3 {
     padding: 0.6em 0;
 }
 
-#tercero {
-    padding: 1.5em 0;
-    text-align:center;
+#tercero p {
+    margin-top: 7em;
 }
 
 .icons {
-    padding: 0.25em 0.5em 0.25em 0;    
+    padding: 0.25em 0.5em 0.25em 0;
+}
+
+/***************************************************************************************         FILE FAQ         *************************************************************************************/
+/*                          MAIN CSS AREA                       */
+
+#faq-first-line {
+    /* background-image: url("assets/img/home page/faq-first-line.jpg"); */
+    height: 20em;
+    background-size: cover;
+    background-position: top left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--footer-color);
+    opacity: 0.9;
+    /* margin-bottom: 12px; */
 }
