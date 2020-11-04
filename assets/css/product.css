@@ -250,9 +250,16 @@
     transform: rotate(270deg);
     margin-right: 1em;
 }
+.drop-down-button:active > img {
+    transform: rotate(90deg);
+}
 .arrow-up img {
     transform: rotate(90deg);
 }
+.arrow-up:active > img {
+    transform: rotate(270deg);
+}
+
 
 /*more-products*/
 #more-products { 
