@@ -178,6 +178,10 @@ footer {
     margin-top: 2.5em;
 }
 
+.item-footer a {
+    padding: 0.5em 0;
+}
+
 footer h3 {
     padding: 0.7em 0;
 }
