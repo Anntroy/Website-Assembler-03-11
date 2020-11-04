@@ -18,7 +18,7 @@
 [class*="col-"]{
 	float:left;
 	width:100%;
-	/* border:1px solid red; */
+	border:1px solid red;
 	padding: 5px 15px 10px 10px;
 }
 
@@ -120,7 +120,9 @@ smaller tablets @ 600 or @ 640 wide.*/
 body{
     font-family: 'Work Sans', sans-serif;
 }
-
+body a{
+    color: #fff;
+}
 
 
 /*              HEADER CSS AREA                 */
@@ -186,6 +188,15 @@ header nav ul li{
     }
     .filter{
         color: gray;
+    }
+    #newsletter p{
+        text-align: center;
+    }
+    .link-newsletter{
+        color: #fff;
+        padding: 5px 80px;
+        background-color: #cf2c30;
+        border-radius: 3px;
     }
 
 /*              FOOTER CSS AREA                 */
