@@ -17,6 +17,12 @@
 #images-column li {
     margin: 0 auto;
 }
+#images-column li:hover {
+    border: solid 1px grey;
+}
+#images-column li:active {
+    transform: scale(0.9);
+}
 #images-column li img {
     width: 100%;
     margin: 2px 0;
