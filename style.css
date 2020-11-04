@@ -59,7 +59,7 @@ nav {
 /*                          MAIN CSS AREA                       */
 /* Categories */
 #first-line {
-    background-image: url("assets/img/home page/first-line.jpg");
+    background-image: url("assets/img/home-page/first-line.jpg");
     height: 20em;
     background-size: cover;
     background-position: top left;
@@ -93,7 +93,7 @@ nav {
 }
 
 #second-line_item1 {
-    background-image: url("assets/img/home page/second-line1.jpg");
+    background-image: url("assets/img/home-page/second-line1.jpg");
     width: 312px;
     background-position: center;
     display: flex;
@@ -105,7 +105,7 @@ nav {
 }
 
 #second-line_item2 {
-    background-image: url("assets/img/home page/second-line2.jpg");
+    background-image: url("assets/img/home-page/second-line2.jpg");
     width: 312px;
     background-position: bottom;
     display: flex;
@@ -117,7 +117,7 @@ nav {
 }
 
 #second-line_item3 {
-    background-image: url("assets/img/home page/second-line3.jpg");
+    background-image: url("assets/img/home-page/second-line3.jpg");
     width: 312px;
     background-position: top;
     display: flex;
@@ -147,7 +147,7 @@ nav {
 }
 
 #third-line_item1 {
-    background-image: url("assets/img/home page/third-line1.jpg");
+    background-image: url("assets/img/home-page/third-line1.jpg");
     width: 474px;
     background-position: center;
     display: flex;
@@ -159,7 +159,7 @@ nav {
 }
 
 #third-line_item2 {
-    background-image: url("assets/img/home page/third-line2.jpg");
+    background-image: url("assets/img/home-page/third-line2.jpg");
     width: 474px;
     background-position: top;
     display: flex;
@@ -271,7 +271,7 @@ footer h3 {
 /*                          FAQ CSS AREA                       */
 
 #faq-first-line {
-    /* background-image: url("assets/img/home page/faq-first-line.jpg"); */
+    /* background-image: url("assets/img/home-page/faq-first-line.jpg"); */
     height: 6em;
     display: flex;
     align-items: center;
@@ -287,7 +287,7 @@ footer h3 {
 
 
 #faq-second-line {
-    background-image: url("assets/img/home page/faq-first-line.jpg");
+    background-image: url("assets/img/home-page/faq-first-line.jpg");
     height: 20em;
     background-size: cover;
     background-position: center left;
