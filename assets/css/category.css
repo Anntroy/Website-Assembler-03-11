@@ -18,8 +18,8 @@
 [class*="col-"]{
 	float:left;
 	width:100%;
-	border:1px solid red;
-	padding:0 15px 10px 10px;
+	/* border:1px solid red; */
+	padding: 5px 15px 10px 10px;
 }
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
@@ -171,7 +171,10 @@ header nav ul li{
     }
     .right{
         /* margin-left: 85%; */
-        padding-left: 36%;
+        padding-left: 34%;
+    }
+    .left{
+        padding-left: 2%;
     }
     .bold{
         font-size: 0.8em;
