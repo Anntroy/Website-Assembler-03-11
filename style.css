@@ -168,16 +168,6 @@ nav {
     color: white;
     opacity: 0.9;
 }
-#third-line_item2 {
-    background-image: url("assets/img/home page/third-line2.jpg");
-    width: 474px;
-    background-position: top;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    opacity: 0.9;
-}
 
 /* Newsletter */
 #newsletter {
@@ -278,17 +268,85 @@ footer h3 {
 }
 
 /***************************************************************************************         FILE FAQ         *************************************************************************************/
-/*                          MAIN CSS AREA                       */
+/*                          FAQ CSS AREA                       */
 
 #faq-first-line {
     /* background-image: url("assets/img/home page/faq-first-line.jpg"); */
-    height: 20em;
-    background-size: cover;
-    background-position: top left;
+    height: 6em;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--footer-color);
-    opacity: 0.9;
     /* margin-bottom: 12px; */
+}
+
+#faq-first-line h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+
+#faq-second-line {
+    background-image: url("assets/img/home page/faq-first-line.jpg");
+    height: 20em;
+    background-size: cover;
+    background-position: center left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#faq-second-line h2{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+#faq-third-line {
+    height: auto;
+    width: auto;
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+}
+
+.faq-third-line_items {
+    display: flex;
+    margin: 2em;
+    align-items: center;
+}
+
+.faq-third-line_items h3 {
+    font-weight: bold;
+    text-align: right;
+}
+
+.title-items {
+    flex: 40%;
+    margin: 2em;
+    font-size: 11px;
+}
+
+.text-items {
+    flex: 60%;
+    border-left: 0.2em solid var(--footer-color);
+    padding-left: 2em;
+    font-size: 10px;
+}
+
+.text-items p {
+    padding: 0.5em;
+    line-height: 1.6;
+}
+
+.text-items a {
+    color: var(--footer-color);
+    margin-left: 1em;
+    font-size: 8px;
+}
+
+.icons {
+    padding: 0.25em 0.5em 0.25em 0;
+    color: var(--footer-color);
 }
