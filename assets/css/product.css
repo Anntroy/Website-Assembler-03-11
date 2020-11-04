@@ -144,3 +144,39 @@
     padding: 1em 14em;
 }
 
+/*drop-down*/
+
+.drop-content {
+    display: flex;
+    flex-direction: column;
+}
+#drop-down { 
+    background-color:#B6B6B6;
+    margin: 1em;
+    font-size: 0.9em;
+    margin-bottom: 3em;
+}
+#drop-info-2 {
+    float: left;
+}
+
+#drop-down img {
+    float: left;
+    padding: 0.5em;
+}
+.drop-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#media-icons {
+    margin: 1em auto;
+    padding: 0 14em;
+}
+
+
+#media-icons img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0 auto;
+}
