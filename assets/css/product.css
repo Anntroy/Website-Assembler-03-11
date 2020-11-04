@@ -235,7 +235,12 @@
     margin: 0 0.5em;
     margin-top: 1.5em;
 }
-
+#media-icons img:hover {
+    transform: scale(1.3);
+}
+#media-icons img:active {
+    transform: scale(1);
+}
 /*drop-down-menu*/
 .drop-down-button {
     border-bottom: 2px solid lightgrey;
@@ -277,6 +282,10 @@
     padding: 7em 2em 1em 2em ;
     max-width: 100%;
     max-width: 100%;
+}
+.more-products img:hover {
+    transform: scale(1.2);
+    margin-bottom: 2em;
 }
 .more-products-info {
     text-align: center;
