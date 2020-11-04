@@ -19,7 +19,7 @@
 	float:left;
 	width:100%;
 	border:1px solid red;
-	padding: 5px 15px 10px 10px;
+	padding: 10px 15px 10px 10px;
 }
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
@@ -121,7 +121,7 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 body a{
-    color: #fff;
+    color: #000;
 }
 
 
@@ -141,6 +141,9 @@ header nav ul li{
 #logo img{
     width: 58px;
     margin-left: 4em;
+}
+.migas{
+    font-size: 0.7em;
 }
 
 /*              MAIN CSS AREA                   */
@@ -174,6 +177,7 @@ header nav ul li{
     .right{
         /* margin-left: 85%; */
         padding-left: 34%;
+        color: black;
     }
     .left{
         padding-left: 2%;
@@ -193,6 +197,7 @@ header nav ul li{
         text-align: center;
     }
     .link-newsletter{
+        text-align: center;
         color: #fff;
         padding: 5px 80px;
         background-color: #cf2c30;
