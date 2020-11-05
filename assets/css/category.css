@@ -18,7 +18,7 @@
 [class*="col-"]{
 	float:left;
 	width:100%;
-	/* border:1px solid red; */
+	border:1px solid red;
 	padding: 10px 15px 10px 10px;
 }
 
@@ -126,7 +126,7 @@ body a{
 
 
 /*              HEADER CSS AREA                 */
-header a{
+/* header a{
     font-size: 1.0em;
     font-weight: 500;
     color: #cf2c30;
@@ -141,7 +141,7 @@ header nav ul li{
 #logo img{
     width: 58px;
     margin-left: 4em;
-}
+} */
 
 /*              MAIN CSS AREA                   */
 
